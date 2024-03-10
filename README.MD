@@ -41,3 +41,6 @@ python manage.py startapp profiles_api
 # test using django development web server make it available on all network server adaptor
 
 python manage.py runserver 0.0.0.0:8000
+
+source ~/env/bin/activate
+python manage.py makemigrations profiles_api
